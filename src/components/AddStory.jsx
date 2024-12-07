@@ -1,10 +1,11 @@
 import { useRef } from "react";
 import "../styles/addStoryOverlay.css";
 import imageToBase64 from "image-to-base64/browser";
-function AddStory({ setAddOverlay }) {
+function AddStory({ setAddOverlay, showStory }) {
   const imgElem = useRef();
   function submitStory(e) {
     e.preventDefault();
+    showStory(-1);
     const formEl = e.target;
     const formData = new FormData(formEl);
     // const imgData = formData.get("story-image");

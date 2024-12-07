@@ -32,14 +32,14 @@
 .bar-child {
   background-color: red;
   height: 10px;
-  transition-duration: 3s;
-  transform-origin: left;
+  /* transition-duration: 3s;
+  transform-origin: left; */
 }
 .bar-child-inactive {
-  transform: scaleX(0);
-  transition-duration: 0s;
+  /* transform: scaleX(0);
+  transition-duration: 0s; */
 }
 
 .bar-child-active {
-  transform: scaleX(1);
+  /* transform: scaleX(1); */
 }

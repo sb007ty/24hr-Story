@@ -1,0 +1,26 @@
+.story-bar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.story {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.add-story {
+  font-size: 2rem;
+}
+.user-story {
+  background-color: gray;
+  opacity: 0.8;
+}
+.active-story {
+  background-color: rgb(231, 145, 145);
+}
